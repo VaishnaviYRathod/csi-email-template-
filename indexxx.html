@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="color-scheme" content="light dark">
+    <meta name="supported-color-schemes" content="light dark">
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+        * {
+            margin: 0;
+            border: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Lato', sans-serif;
+            margin: 0 auto;
+            padding: 1%;
+        }
+
+        p,
+        ul.ultext { 
+            color: #f3f0f0;
+            font-size: 15px;
+            margin: 2% 2%;
+        }
+        @media (prefers-color-scheme: dark){
+            ul.ultext { 
+            color: #f3f0f0;
+            font-size: 15px;
+            margin: 2% 2%;
+        }
+        }
+
+        .ultext {
+            padding-left: 35px;
+        }
+
+        .ultext li {
+            margin: 0 0 5px 0;
+        }
+
+        #wrapper {
+            margin:0 auto;
+            background-color: #151515;
+            background-image: url(https://static.csivit.com/devspace-email-template-assets/emailtempbg.png);
+            background-size: 100% 100%;
+            width: 700px;
+            height: auto;
+            padding: 1%;
+            border-style: solid;
+            border-width: 3px;
+            border-color: #00d5ff;
+        }
+
+        img {
+            max-width: 100%;
+
+        }
+
+        #logo1 {
+            max-width: 30%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1%;
+        }
+
+        #logo2 {
+            max-width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1%;
+            margin-top: 10px;
+        }
+
+        .insidecol {
+            margin: 2% auto;
+            word-wrap:break-word;
+            padding:1%;
+            display:table;
+        }
+        a{
+            text-decoration: none;
+        }
+        .devsbtn {
+            font-family: 'Lato', sans-serif;
+            color: black;
+            background-color: #ddc076;
+            border: 2px solid #f3f0f0;
+            padding: 15px 32px;
+            text-decoration-color: black;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        @media (prefers-color-scheme: dark)
+        {.devsbtn {
+            font-family: 'Lato', sans-serif;
+            color: black;
+            background-color: #ffbf00af;
+            border: 2px solid #f3f0f0;
+            padding: 15px 32px;
+            text-decoration-color: black;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            position: relative;
+            font-size: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        }
+
+        .devsbtn:hover {
+            font-family: 'Lato', sans-serif;
+            color: #f3f0f0;
+            background-color: #151515;
+            border: 2px solid #c5a755;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        @media (prefers-color-scheme: dark){
+            .devsbtn:hover {
+            font-family: 'Lato', sans-serif;
+            color: #f3f0f0;
+            background-color: #151515;
+            border: 2px solid #c5a755;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 15px;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+        }
+        .social {
+            /* max-width: 30px; */
+            float: left;
+            margin-left:1.6%;
+            display:table-row;
+        }
+      
+        .socialItem {
+            max-width: 30px;
+        }
+        .socialItem:hover{
+            border: 1px solid #c5a755;
+        }
+        a.csiweb{
+            color:#f3f0f0;
+            }
+
+        @media (prefers-color-scheme: dark){
+            a.csiweb{
+            color:#f3f0f0;
+        }}
+        a.csiweb:hover{
+            color:#c5a755;
+        }
+        @media (prefers-color-scheme: dark){
+            a.csiweb:active{
+            color:#f3f0f0;
+        }}
+        a.csiweb:active{
+            color:#f3f0f0;}
+            
+        .collabs{
+            margin-top:0;
+            margin-left:0;
+        }
+        .collabitem{
+            margin-top:0;
+            margin-left:0;
+            padding:1%;
+            max-width:10%;
+            padding-bottom:1%;
+        }
+        h1{
+            color:#f3f0f0;
+            font-size:20px;
+            text-align:center;
+            margin:0 auto;
+        }
+        @media (prefers-color-scheme: dark){
+            h1{
+            color:#f3f0f0;
+            font-size:20px;
+            text-align:center;
+            margin:0 auto;
+        }
+        }
+        #csiwebsitelink{
+            text-decoration: underline;
+        }
+    
+    </style>
+</head>
+
+<body>
+    <div id=wrapper>
+        <header>
+            <div id="logo1">
+                <a href="https://csivit.com" target="_blank">
+                    <img src="./assets/CSILight.png">
+                </a>
+            </div>
+            <div id="logo2">
+                <a href="https://devspace.csivit.com" target="_blank">
+                    <img src="./assets/Devspace.png">
+                </a>
+            </div>
+        </header>
+        <div class="insidecol">
+            <p>Greetings,<br><br>
+                Looking for a place to create, reach, dream, work,build,aspire,live,grow?
+                Look no further.
+                </p>
+            <p>Heard of LaserTag with 2000+ registrations and ForkThis during Gravitas’22? That was just a glimpse into our chapter.
+            </p>
+            <p>Do the words code, design, manage or aspire, evoke a feeling of excitement in you?
+                Then we at Computer Society of India, a student led technical chapter, invite you to join us. 
+                </p>
+            
+            <p>CSI VIT is a non-profit organisation, it is a place for designers, developers, writers and enthusiasts of every kind to come together and carve a niche of their own. </p>
+            <p>You don't want to miss out!</p><br>
+            <p>Think you have what it takes to build for us, design for us, write for us and grow with us?
+                Then this is your chance to be a part of our family.
+                </p>
+            <div class="devbtn">
+                <center>
+                <a class="devsbtn" href="https://vtop.vit.ac.in/vtop/content" target="_blank">Enroll</a></center>
+            </div><br>
+            <p>Join the community and keep yourself updated about CSI ! </p>
+            <p>For more information about us, check out our <a id=csiwebsitelink href="https://csivit.com/" target="_blank" class=csiweb>website.</a></p>
+            <p>We hope to see you there!</p>
+            <p>Regards,<br>
+               <br>
+                CSI-VIT</p>
+            <div class="social">
+                <a href="https://www.facebook.com/csivitu" target="_blank" >
+                    <img class="socialItem"
+                        src="./assets/facebook_icon.png"></a>
+
+                <a href="https://twitter.com/csivitu" target="_blank" >
+                    <img class="socialItem" src="./assets/twitter_icon.png"></a>
+
+                <a href="https://www.instagram.com/csivitu" target="_blank" >
+                    <img class="socialItem"
+                        src="./assets//instagram_icon.png"></a>
+
+            </div>
+           
+    </div>
+</body>
+
